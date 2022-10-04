@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Operations>
+	<Operation expression_1 = "4" expression_2 = "2" expected = "2"/>
+	<Operation expression_1 = "2" expression_2 = "4" expected = "0"/>
+	<Operation expression_1 = "0" expression_2 = "2" expected = "0"/>
+	<Operation expression_1 = "-56" expression_2 = "-4" expected = "14"/>
+	<Operation expression_1 = "214" expression_2 = "0" expected = "Error 09 – Помилка ділення на 0."/>
+	<Operation expression_1 = "2147483650" expression_2 = "2" expected = "Error 06 — Дуже мале, або дуже велике значення числа для int. Числа повинні бути в межах від -2 147 483 648 до 2 147 483 647."/>
+</Operations>
